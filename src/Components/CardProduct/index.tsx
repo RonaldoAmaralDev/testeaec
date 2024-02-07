@@ -79,7 +79,7 @@ const CardProduct = ({ data }: ArrayProduct) => {
                     <p>{description}</p>
                 </div>
             </div>
-            <button className="btn-comprar" onClick={() => viewProduct(id)}> Detalhes</button>
+            {/* <button className="btn-comprar" onClick={() => viewProduct(id)}> Detalhes</button> */}
             <button className="btn-comprar" onClick={() => HandleAddCartProduct(id)}> Comprar</button>
 
         </section>
